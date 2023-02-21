@@ -1,0 +1,13 @@
+{
+    "name": "rom4eg/php_demo2",
+    "autoload": {
+        "psr-4": {
+            "Rom4eg\\PhpDemo2\\": "src/",
+            "Rom4eg\\PhpTools\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "serve": "php -S localhost:6000 src/main.php"
+    }
+}
